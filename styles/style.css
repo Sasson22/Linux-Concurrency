@@ -1,0 +1,168 @@
+﻿* {
+    font-family: MyriadPro-Regular !important;
+}
+
+body {
+    margin-top: -19px;
+    background-color: #C3BEB1;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     text-decoration:none; 
+}
+
+hr {
+    margin: 0;
+}
+
+.row {
+    margin-right: 0;
+}
+
+/* Header */
+
+.custom {
+    background-color: #C3BEB1;
+    padding-top: 20px;
+    margin: 0;
+    border: 0;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.menu-center {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-center li {
+    width: 16%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* logo */
+
+#div_logo {
+    text-align: center;
+}
+
+#img_logo {
+    width: 40%;
+}
+/* logo end */
+
+/* icons */
+
+#div_media_icons {
+    padding-left: 3%;
+}
+
+.socialmedia_icons {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    color: #C3BEB1;
+}
+
+.socialmedia_icons i {
+    font-family: FontAwesome !important;
+}
+
+/* icons end */
+
+/* Header end */
+
+/* Home page */
+
+#div_interiorimg {
+    height: 400px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+#img_interior {
+    width: 100%;
+    height: inherit;
+}
+
+#p_intro_text {
+    text-align: center;
+    padding: 2% 0 0 0;  
+}
+
+#btn_booknow {
+    margin: 1% 0 0 0;
+    padding: 2% 0;
+    background-color: #8A7590;
+    width: 15%;
+    border: none;
+    border-radius: 9px;
+    font-size: 140%;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#div_menu {
+    padding: 1%;
+    margin: 1% 0 0 0;
+    background-color: #767060;
+    width: 100%;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.padding-r-5 {
+    padding-right: 5px;
+}
+
+.padding-l-5 {
+    padding-left: 5px;
+}
+
+.menu-details {
+    margin: 1% 0 0 0;
+    background-color: #958E7F;
+    border-radius: 12px;
+    font-size: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.menu-details div {
+    padding: 8%;
+    font-weight: 100 !important;
+}
+
+#div_drink_spirit {
+    margin-right: 1%;
+}
+
+.hr-menuboxes {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(145, 128, 148, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
