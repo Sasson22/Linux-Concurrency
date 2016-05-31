@@ -1,6 +1,6 @@
 ﻿<div class="row">
-    <div id="div_interiorimg" class="col-md-12">
-        <img id="img_interior" src="<?php echo MAIN_URL; ?>images/restourant_interior.jpg" />
+    <div id="div_mainimg" class="col-md-12">
+        <img id="img_home_main" src="<?php echo MAIN_URL; ?>images/little_collins_street_view.jpg" />
             <p id="p_intro_text">
                 Flavors and tastes of Melbourne in De Pijp
             </p>
@@ -92,7 +92,7 @@
     <div id="div_contact">
         <div id="div_contact_txt">Contact</div>
         <div id="contact_container" class="row">
-            <div class="col-md-6 col-xs-12 col-sm-12">
+            <div class="col-md-6 col-xs-12 col-sm-12 xs-sm-no-padding">
                 <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9747.034421547645!2d4.8934112!3d52.3566633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6098df5e51337%3A0x9ab7a48b907a7189!2sLittle+Collins!5e0!3m2!1sbg!2sbg!4v1464615192089" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
@@ -144,12 +144,15 @@
     </div>
     
     <div class="row">
-        <div id="div_seats" class="col-md-6 col-xs-12 col-sm-12">
-            <center><iframe width=600px height=500px frameborder=0 src="https://www.seatme.nl/srm/availabletimes.htm?rid=1612&af=1147&lang=en"></iframe></center>
+        <div id="div_seats" class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+            <img id="reservation_system" src="<?php echo MAIN_URL; ?>images/reservation_system.jpg" />
         </div>
-        <div class="col-md-6 col-xs-12 col-sm-12">
+        <div id="div_seats" class="hidden-md hidden-lg col-xs-12 col-sm-12">
+            <img id="reservation_system_mv" src="<?php echo MAIN_URL; ?>images/reservation_system_mobile_view.jpg" />
+        </div>
+        <div class="col-md-6 col-xs-12 col-sm-12 xs-sm-no-padding">
             <div id="div_gallery_txt">Gallery</div>
-            <img id="img_interior2" src="<?php echo MAIN_URL; ?>images/restourant_interior.jpg" />
+            <img id="img_gallery" src="<?php echo MAIN_URL; ?>images/restourant_interior.jpg" />
             <div id="slider_container">
                 <div class="slider-circle"></div>
                 <div class="slider-circle"></div>
@@ -158,7 +161,7 @@
                 <div class="slider-circle"></div>
                 <div class="slider-circle"></div>
                 <div class="slider-circle"></div>
-        </div>
+            </div>
     </div>
     <div class="row">
         <div class="col-md-12 col-xs-12">
