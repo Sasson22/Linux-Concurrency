@@ -32,7 +32,7 @@
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Block</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 
