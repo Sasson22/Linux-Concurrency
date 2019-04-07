@@ -2,7 +2,9 @@ Linux Concurrence named Little Collins
 
 Addressing XML external entity (XXE) vulnerability.
 
-Starting with a fix for jvm parser
+Starting with a fix for JVM parser
+Beyond JVM and SAX parser
+Featuring Golang concurrence
 
 By creating a stream-oriented XML 1.0 parser library, written in GoLan using Goland IDE that fills in the dependencies automatically
 
